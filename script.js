@@ -6,9 +6,9 @@ function toggleTheme() {
 
     setTimeout(() => {
         body.classList.toggle("dark-mode");
-    }, 300); // รอ 300ms ให้จอ fade ก่อนเปลี่ยนธีมจริง
+    }, 300);
 
     setTimeout(() => {
         body.classList.remove("switching");
-    }, 600); // รอให้ fade กลับปกติหลังเปลี่ยนธีม
+    }, 600);
 }
